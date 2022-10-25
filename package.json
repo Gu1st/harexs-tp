@@ -1,0 +1,43 @@
+{
+  "name": "create-harexs-tp",
+  "version": "1.0.0",
+  "description": "A simple tool for quickly creating Vue SFC pages",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "author": "Harexs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gu1st/harexs-tp"
+  },
+  "files": [
+    "index.js",
+    "/template"
+  ],
+  "bin": {
+    "create-harexs-tp": "index.js",
+    "chtp": "index.js"
+  },
+  "engines": {
+    "node": ">=13.2.0"
+  },
+  "keywords": [
+    "harexs",
+    "harexs-create-template",
+    "harexs-tp"
+  ],
+  "dependencies": {
+    "kolorist": "^1.6.0",
+    "minimist": "^1.2.7",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^5.1.1",
+    "git-cz": "^4.9.0",
+    "release-it": "^15.5.0"
+  },
+  "scripts": {
+    "release": "release-it",
+    "commit":"git-cz"
+  }
+}
