@@ -7,30 +7,21 @@
 </template>
 
 <script>
-export default{
-    data(){
-        return{
-            Count:0
-        }
-    },
-    created(){
-
-    },
-    mounted(){
-
-    },
-    destroyed() {
-
-    },
-    computed:{
-
-    }
-    methods:{
-        addCount(){
-            this.Count++
-        }
-    }
-}
+export default {
+	data() {
+		return {
+			Count: 0,
+		};
+	},
+	created() {},
+	mounted() {},
+	destroyed() {},
+	methods: {
+		addCount() {
+			this.Count++;
+		},
+	},
+};
 </script>
 
 <style scoped></style>
