@@ -91,6 +91,11 @@ async function init() {
                             if (fs.existsSync(targetFile)) {
                                 return 'confirm'
                             }
+                        } else {
+                            targetFile = path.resolve(`${fileName}.vue`)
+                            if (fs.existsSync(targetFile)) {
+                                return 'confirm'
+                            }
                         }
                         return null
                     },
