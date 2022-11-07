@@ -1,6 +1,6 @@
 {
   "name": "create-harexs-tp",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple tool for quickly creating Vue SFC pages",
   "main": "index.js",
   "type": "module",
